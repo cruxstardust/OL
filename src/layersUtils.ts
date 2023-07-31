@@ -155,9 +155,9 @@ export function getWFSSourceLayer(url: string, namespace: string, _map: Map) {
     },
   });
 
-  _map.on('moveend', function () {
-    vectorSource.refresh();
-  });
+  // _map.on('moveend', function () {
+  //   vectorSource.refresh();
+  // });
 
 
   return vectorSource;
